@@ -1,0 +1,12 @@
+/target/
+/.project
+/.classpath
+/test-output
+/.settings
+/allure-results/
+/allure-report/
+local_suite.xml
+/bin/
+/.metadata/
+/.recommenders/
+.DS_Store
