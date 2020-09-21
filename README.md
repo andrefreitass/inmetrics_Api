@@ -19,7 +19,7 @@
 - Criar a variavel de ambiente ALLURE_HOME o caminho da variavel deve está no mesmo nivel que a pasta BIN
 
 ### Execução do projeto:
-- ${basedir}/src/main/resources/suite
+- Acessar ${basedir}/src/main/resources/suite executar o teste pela a IDE;
 
 ### Relatório será gerado no conforme abaixo:
 - Após a execução da suite na pasta raiz será criado a pasta allure-results;
