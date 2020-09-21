@@ -6,7 +6,7 @@
 			{
 					"CT": "CT01 - Cadastro de Empregado",
 					"path":"cadastrar",
-					"statusCode":"202",
+					"statusCode":"200",
 					"contentType": "application/json",
 					"baseline":"{admissao=21/09/2020, comissao=1.000,00, tipoContratacao=clt, salario=1.000,00, cpf=764.435.730-05, nome=Cadastro Funcionario API, sexo=m, cargo=Analista de automacao QA, empregadoId=%s}"
 			}
@@ -32,7 +32,7 @@
 			{
 					"CT": "CT03 - Recupera Empregado por codigo",
 					"path":"list/",
-					"statusCode":"202",
+					"statusCode":"200",
 					"contentType": "application/json",
 					"baseline":"{admissao=21/09/2020, comissao=1.000,00, tipoContratacao=clt, salario=1.000,00, cpf=764.435.730-05, nome=Cadastro Funcionario API, sexo=m, cargo=Analista de automacao QA, empregadoId=%s}"
 					
@@ -46,7 +46,7 @@
 			{
 					"CT": "CT04 - Alterar Empregado",
 					"path":"alterar/",
-					"statusCode":"202",
+					"statusCode":"200",
 					"contentType": "application/json",
 					"baseline":"{admissao=22/09/2020, comissao=5.000,00, tipoContratacao=pj, salario=5.000,00, cpf=764.435.730-05, nome=Alteracao Funcionario API, sexo=m, cargo=Analista de automacao QA, empregadoId=%s}"
 					
@@ -61,7 +61,7 @@
 					"CT": "CT05 - Excluir Empregado",
 					"path":"deletar/",
 					"baseline":"Deletado",
-					"statusCode":"202",
+					"statusCode":"200",
 					"contentType": "text/plain;charset=UTF-8"
 			}
 		]
