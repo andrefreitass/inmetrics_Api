@@ -16,14 +16,14 @@
 ### Configuração do relatório
 - Baixar o allure results https://github.com/allure-framework/allure2/releases/tag/2.13.5
 - Descompactar o allure na pasta desejada
-- Criar a variavel de ambiente ALLURE_HOME o caminho da variavel deve está no mesmo nivel que a pasta BIN
+- Criar a variavel de ambiente ALLURE_HOME o caminho da variável deve está no mesmo nivel que a pasta BIN
 
 ### Execução do projeto:
 - Acessar ${basedir}/src/main/resources/suite executar o teste pela a IDE;
 
 ### Relatório será gerado no conforme abaixo:
 - Após a execução da suite na pasta raiz será criado a pasta allure-results;
-- No mesmo nível que a pasta allure-results executar o comando no cmd allure serve;
-- Acessa a aba Behaviors, nesta aba todos os testes estarão vinculados com as estorias de usuário;
+- No mesmo nível que a pasta allure-results executar o comando no promt de comando allure serve;
+- Acessa a aba Behaviors, nesta aba todos os testes estarão vinculados com as história de usuário;
 
 
